@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de controle de ponto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<header> <strong>PONTO ELETRÔNICO</strong></header>
+<body>
+    <div class="data-hora">
+        <p id="dia-semana"></p>
+        <p id="dia-mes-ano"></p>
+        <p id="hora-min-seg"></p>
+    </div>
+    <dialog id="dialog-ponto">
+        <p id="dialog-data">Data</p>
+        <p id="dialog-hora">Hora</p>
+        <select name="select-tipos-ponto" id="select-tipos-ponto">
+            <option value="entrada">Entrada</option>
+            <option value="intervalo">Intervalo</option>
+            <option value="volta-intervalo">Volta Intervalo</option>
+            <option value="saida">Saída</option>
+        </select>
+        <textarea id="observacao" placeholder="Observação" ></textarea>
+        <button id="btn-dialog-registrar-ponto">Registrar Ponto</button>
+        <button id="btn-dialog-fechar">X</button>
+    </dialog>
+    <div id="div-btn-registrar-ponto">
+        <button id="btn-registrar-ponto">Registrar Ponto</button>
+    </div>
+    <div class="hidden" id="div-alerta">
+        <p>Ponto registrado com sucesso!</p>
+    </div>
+
+<div id="div-btn-ponto-passado">
+    <button id="ponto-passado">Registrar Ponto Passado</button>
+    <dialog id="dialog-ponto-passado">
+        <label>Selecione a data: </label> 
+        <input type="date" id="data-passada" ><p></p>
+        <label>Selecione a hora:</label>
+        <input type="time" id="hora-passada">
+        <select name="select-tipos-ponto-passado" id="select-tipos-ponto-passado">
+            <option value="entrada">Entrada</option>
+            <option value="intervalo">Intervalo</option>
+            <option value="volta-intervalo">Volta Intervalo</option>
+            <option value="saida">Saída</option>
+        </select>     
+        <button id="btn-dialog-fechar-ponto-passado">X</button>
+        <p></p>
+        <label for="arquivo">Anexar Documentos:</label>
+        <p></p>
+        <input type="file" id="arquivo" accept=".pdf,.jpg,.jpeg,.png">
+        <p></p>
+    <textarea id="justificativa" placeholder="Justificativa" ></textarea><p></p>
+    <button id="btn-dialog-reg-ponto-passado"> Registrar</button>
+    </dialog>
+</div>
+<div id="relatorio">
+    <a href="html\relatorio.html">
+        <button id="botao-relatorio">Relatório de Pontos</button>
+    </a>
+</div>
+    <script src="js/index.js"></script>
+</body>
+</html>

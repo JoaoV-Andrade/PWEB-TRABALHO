@@ -1,0 +1,165 @@
+.data-hora {
+    text-align: center;
+}
+
+#btn-dialog-fechar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#div-btn-registrar-ponto {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.data-hora p {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+#btn-registrar-ponto, #btn-dialog-registrar-ponto, #botao-relatorio {
+    font-size: 1.5rem;
+    padding: 25px;
+    border: 0px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+#btn-registrar-ponto:hover {
+    background-color: red;
+}
+
+#btn-registrar-ponto:active {
+    background-color: black;
+}
+
+#select-tipos-ponto {
+    font-size: 1.5rem;
+    padding: 25px;
+    
+}
+
+#dialog-ponto p {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;    
+}
+
+#btn-dialog-fechar {
+    padding: 15px;
+    border: 0px;
+    background-color: red;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
+
+#div-alerta {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+#btn-dialog-fechar-ponto-passado {
+    padding: 15px;
+    border: 0px;
+    background-color: red;
+    color: white;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+#ponto-passado  {
+    font-size: 1.5rem;
+    padding: 25px;
+    border: 0px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+#div-btn-ponto-passado {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;    
+    text-align: center;
+    padding: 20px;
+}
+
+#ponto-passado:hover {
+    background-color: red;
+}
+
+#ponto-passado:active {
+    background-color: black;
+}
+#dialog-ponto-passado {
+    text-align: left;
+}
+header {
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    border: 0;
+}
+body {
+    background-color: white;
+}
+
+
+#relatorio{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#ponto-relatorio:hover {
+    background-color: red;
+}
+
+#ponto-relatorio:active {
+    background-color: black;
+}
+
+#btn-registrar-ponto:hover {
+    background-color: red;
+}
+
+#btn-registrar-ponto:active {
+    background-color: black;
+}
+#botao-relatorio:hover {
+    background-color: red;
+}
+#botao-relatorio:active {
+    background-color: black;
+}
+header {
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    border: 0;
+}
